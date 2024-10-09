@@ -1,7 +1,13 @@
 .head {
     text-align: center;
+    color: red
 }
+
 #text {
     text-align: center;
+}
+
+.form {
+    align-items: center;
     margin: 0 auto;
 }
