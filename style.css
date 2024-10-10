@@ -1,13 +1,17 @@
 .head {
     text-align: center;
-    color: red
+    color: red;
+    font-size: 50px;
 }
 
-#text {
+.text {
     text-align: center;
+    font-size: 1.5rem;
 }
 
-.form {
+.container {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    row-gap: 2rem;
 }
