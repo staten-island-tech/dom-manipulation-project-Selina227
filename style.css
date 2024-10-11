@@ -1,3 +1,6 @@
+body {
+    background-image: url(img/background.jpg);
+}
 .head {
     text-align: center;
     color: red;
@@ -9,7 +12,7 @@
     font-size: 1.5rem;
 }
 
-.container {
+#container-box {
     display: flex;
     flex-direction: column;
     align-items: center;
