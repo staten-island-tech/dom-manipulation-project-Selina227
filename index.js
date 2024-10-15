@@ -2,19 +2,17 @@ const DOMSelectors = {
   button: document.getElementById("btn"),
   text: document.querySelector("#text"),
   box: document.getElementById("container-box"),
+  name: document.getElementById("name"),
+  cost: document.getElementById("cost"),
 };
 
-function createCard() {
+function makeCard() {
   const newCard = {
-    text: DOMSelectors.text.value,
+    name: DOMSelectors.name.value,
+    cost: DOMSelectors.cost.value,
   };
-  let form = document.querySelector("form");
-  //listen for a click event
-  button.addEventListener("submit", function (event) {
-    //prevents default behavior
-    event.preventDefault();
-    //logging the click event
-    console.log(event.target);
-    //get info from the form
-  });
+
+  injectIntoDOM();
 }
+
+function injectIntoDOM() {}
