@@ -29,12 +29,11 @@ function createObject(name, imageURL, cost) {
 function injectCard(card) {
   const cardHTML = `<div class="card">
     <h2>${card.name}</h2>
-    <img class="pic" src="${card.imageURL}">
+    <img class="picture" src="${card.imageURL}">
     <h2>${card.cost}</h2>
     <button class="delete-btn">Delete</button>
   </div>`;
 
-  // Insert the card into the container
   DOMSelectors.box.insertAdjacentHTML("beforeend", cardHTML);
 }
 

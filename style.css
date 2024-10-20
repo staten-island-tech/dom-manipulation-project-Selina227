@@ -1,5 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 body {
     background-image: url(img/background.jpg);
+    font-family: 'Kanit';
 }
 
 form{
@@ -19,21 +26,21 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 2rem;
+    row-gap: 30px;
 }
 
 .card{
     margin: 2.5%;
     padding: 2% 6%;
-    box-shadow: 5px 3px #daaf9d;
-    background-color: #edc9af;
-    align-items: center;
-    text-align: center;
-    display: grid;
+    box-shadow: 10px 10px #b6887b;
+    background-color: #edb8af;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
-    text-wrap: wrap;
+    align-items: center;
+    gap: 30px
 }
 
-.pic{
+.picture{
     width: 20rem;
 }
